@@ -1,0 +1,14 @@
+@use '../../scss/main.scss' as *;
+
+//variables coming to => scss/_variables.scss
+
+#header{
+    padding: $header_padding;
+    background: $header_bg;
+
+    .all-btn{
+        .btn-cls{
+            margin-right: $button_margin_right;
+        }
+    }
+}

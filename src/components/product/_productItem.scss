@@ -1,0 +1,14 @@
+@use '../../scss/main.scss' as *;
+
+//variables coming to => scss/_variables.scss
+
+.card-item{
+   
+    margin-top: $card_item_margin_top;
+    // height: $card_item_height;
+    img{
+     height: 350px;
+     width: $card_item_width;
+    //  object-fit: cover;
+    }
+}

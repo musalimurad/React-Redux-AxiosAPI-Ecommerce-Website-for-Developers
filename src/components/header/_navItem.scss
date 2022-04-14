@@ -1,0 +1,21 @@
+@use '../../scss/main.scss' as *;
+
+
+//variables coming to => scss/_variables.scss
+.nav-item{
+    margin-right: $nav_item_margin_right;
+    a{
+        font-size: $nav_item_size;
+        font-weight: $nav_item_weight;
+        text-decoration: $text_decor;
+        color: $nav_color;
+        transition: $nav_transition;
+        &:hover{
+            color: $active_nav_color;
+        }
+       &.active{
+        color: $active_nav_color;
+    }
+    }
+}
+
